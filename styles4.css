@@ -1,0 +1,25 @@
+/* Контекстний селектор */
+
+div p {
+    color: green;
+}
+
+/* Сусідній селектор */
+
+h1 + p {
+    font-size: 18px;
+}
+
+/* Дочірній селектор */
+
+div > p {
+    font-weight: bold;
+}
+
+/* Блочні елементи */
+
+div {
+    background-color: lightgrey;
+    padding: 10px;
+    margin-bottom: 10px;
+}
